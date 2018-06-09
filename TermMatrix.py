@@ -7,7 +7,7 @@ Created on Sat Jun  9 22:30:39 2018
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 
-docs = ['why hello there', 'omg hello pony omg', 'she went there? omg']
+docs = ['yol yapdı', 'aman tanrım o yea', 'free style mı kanka bu','hehe lahmacun yiyah','kılışdar yol yol yol Yapdı']
 vec = CountVectorizer()
 X = vec.fit_transform(docs)
 binaryX = X.toarray()
