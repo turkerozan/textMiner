@@ -6,8 +6,6 @@ Created on Wed Jun 13 23:56:03 2018
 """
 from __future__ import print_function
 import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer
-import pandas as pd
 import nltk
 import string
 from sklearn.feature_extraction.text import CountVectorizer
